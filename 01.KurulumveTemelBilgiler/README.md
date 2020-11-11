@@ -21,8 +21,8 @@ Kurulum ve Temel Bilgiler bulunan bu bölümde listelenen bilgilere ulaşabilirs
  - "cls" => Komut ekranını temizlemek için kullanılır.
  - "cd\" => C diskine dönmenizi sağlar.
  - "dir" => komutu ile metodlar yazılıp çalıştırılabilir.
-    "mkdir" => Bir dosya oluşturur. (mkdir text.py) => py uzantılı bir python dosyası oluşturur.
-    "rmdir" => Bir dosya siler. (rmdir text.py) => py uzantılı python dosyasını silersiniz.
+    --"mkdir" => Bir dosya oluşturur. (mkdir text.py) => py uzantılı bir python dosyası oluşturur.
+    --"rmdir" => Bir dosya siler. (rmdir text.py) => py uzantılı python dosyasını silersiniz.
    
   ### Python Versiyon Sorgulamak ve Kurulum;
    
