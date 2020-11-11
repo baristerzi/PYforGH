@@ -1,6 +1,6 @@
 # PYforGH
 
-## Python for Grasshopper - Metametrik
+## Grasshopper'da Python Kullanımı - Metametrik
 
 Python temel bilgilerini ve Grasshopper'da kullanımını anlattığımız video serisine linkten ulaşabilirsiniz.
 
