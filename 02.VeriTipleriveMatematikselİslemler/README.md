@@ -9,4 +9,3 @@ Kurulum ve Temel Bilgiler bulunan bu bölümde listelenen bilgilere ulaşabilirs
   - Değişken Tanımlamak ve Tür Dönüşümleri(int => float, int => str)
   - Temel Matematiksel İşlemler(-,+,*,/,%,//,**)
   - Metod kavramı ve String İfadelerde Temel Metodlar(.split, .replace)
-  
