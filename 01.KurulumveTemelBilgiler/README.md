@@ -58,6 +58,53 @@ Kurulum ve Temel Bilgiler bulunan bu bölümde listelenen bilgilere ulaşabilirs
      sayHello(name)
      
      sayHello(Baha) yazılırsa => Hello Baha 
+   
+   ### Grasshopper'da Python kurmak ve Python nodunu açmak;
+   
+    -Grasshopper Python nodu kurulum dosyaları;
+    https://www.food4rhino.com/app/ghpython
+    
+    -Temel Bilgilere rhino'nun kendi sitesinden de ulaşabilirsiniz;
+    https://developer.rhino3d.com/guides/rhinopython/your-first-python-script-in-grasshopper/;
+    
+   
+   -Grasshopper ekranında çift tık yapılarak "ghpythonscript" veya sadece "python" yazarak modülü oluşturabilirsiniz.
+   
+   Temel node kullanımları;
+   -Python nodunu oluşturduğunuzda x ve y olarak input, out ve a olarak da output oluşturulur.
+   -Dikkat etmeniz gereken nokta herhangi bir input'a veya output'a sağ tıklayarak unitinizin türünü tariflemeniz gerekir."TYPE HINT" e tıklayarak açılan formdan unitinizi belirleyebilirsiniz.(int,float, point3d vb.)
+   -Python modulü üzerine çift sol tık yaptığınızda ise kod editör ekranı açılacaktır ve kod yazmaya başlayabilirsiniz.
+   
+   
+   ### Grasshopper'da Python node input ve outputlarını tanımlamak;
+   
+    -Basit bir egzersiz ile bir girdiyi kod vasıtası ile dönüştürelim;
+  
+    1) Öncelikle; ghpythonscript veya math sekmesi içerisindeki script tag'ı altında bulunan ikona tıklayarak bir python modülü oluşturalım. 
+    2) input ve output isimleri değişken isimlerini ifade eder ve bu değişkenler ile basit bir fonksiyon yazalım. 
+    3) Basit bir fonskiyonel kod;
+    
+    def sayhello(name)
+      return "Hello" + name
+    
+    output = sayhello(input)
+    
+    4) input ve outputa iki tane panel bağladığımız zaman, input ifadesi yazdırılır.
+    
+    def sayhello(name)
+      return "Hello" + name
+    
+     output = sayhello(Metametrik) ==> (Hello Metametrik) yazdırılır.  
+     
+      -İkinci bir egzersiz ile grasshopper'da girilen bir nokta bilgisini kod vasıtası ile çizgiye dönüştürelim dönüştürelim;
+      
+      1) Öncelikle; 
+    
+    
+    
+    
+    
+     
       
      
     
