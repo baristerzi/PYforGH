@@ -29,7 +29,7 @@ Kurulum ve Temel Bilgiler bulunan bu bölümde listelenen bilgilere ulaşabilirs
  Komut istemine "py --version" yazılarak => Python programının bilgisayarınızdaki sürüm bilgilerine ulaşılır.
   
   Python Kurulum Dosyaları;  
- -https://www.python.org/downloads/
+ https://www.python.org/downloads/
  
  ### Jupyter Notebook Çalıştırmak ve Basit Kod Denemeleri;
  
