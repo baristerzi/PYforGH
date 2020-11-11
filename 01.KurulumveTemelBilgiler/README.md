@@ -61,11 +61,11 @@ Kurulum ve Temel Bilgiler bulunan bu bölümde listelenen bilgilere ulaşabilirs
    
    ### Grasshopper'da Python kurmak ve Python nodunu açmak;
    
-    -Grasshopper Python nodu kurulum dosyaları;
-    https://www.food4rhino.com/app/ghpython
+   -Grasshopper Python nodu kurulum dosyaları;
+   https://www.food4rhino.com/app/ghpython
     
-    -Temel Bilgilere rhino'nun kendi sitesinden de ulaşabilirsiniz;
-    https://developer.rhino3d.com/guides/rhinopython/your-first-python-script-in-grasshopper/;
+   -Temel Bilgilere rhino'nun kendi sitesinden de ulaşabilirsiniz;
+   https://developer.rhino3d.com/guides/rhinopython/your-first-python-script-in-grasshopper/;
     
    
    -Grasshopper ekranında çift tık yapılarak "ghpythonscript" veya sadece "python" yazarak modülü oluşturabilirsiniz.
