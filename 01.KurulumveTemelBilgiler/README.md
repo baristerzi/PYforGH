@@ -117,8 +117,10 @@ Kurulum ve Temel Bilgiler bulunan bu bölümde listelenen bilgilere ulaşabilirs
       => output = ghcomp.line(point1,point2)
   
       Sonuç: 2 ayrı nokta girdi olarak verilen bir python kodu ile bir line oluşturulmuş oldu.
-      
-   Teşekkürler, iyi çalışmalar Arkadaşlar. :)
+    
+    
+   *************************************************************************************** 
+   Teşekkürler, İyi Çalışmalar Arkadaşlar. :)
       
       
       
