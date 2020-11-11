@@ -17,7 +17,7 @@ Kurulum ve Temel Bilgiler bulunan bu bölümde listelenen bilgilere ulaşabilirs
     string = "Metametrik" => String yani metinsel bir ifadedir. ("str") kısaltması ile kullanılır.
     integer = 10          => integer, tam sayı bir ifadedir. ("int") kısaltması ile kullanılır.
     float = 3.45          => float, reel sayılar kümesini tanımlayan bir ifadedir. ("float") kısaltması ile kullanılır.
-    boolean = True       => boolean, True/False doğru ya da yanlışı tanımlayan ifadedir. ("bool") kısaltması ile kullanılır.
+    boolean = True        => boolean, True/False doğru ya da yanlışı tanımlayan ifadedir. ("bool") kısaltması ile kullanılır.
     
   Veri tiplerini sisteme sorgulatmak için;
     
@@ -60,7 +60,7 @@ Kurulum ve Temel Bilgiler bulunan bu bölümde listelenen bilgilere ulaşabilirs
    Veri tipleri dönüşümü ifadelerin sınıfsal değişimlerinde önemlidir. String bir ifade sayısal bir işleme sokulamaz.Bu sebeple; ifadeler arası dönüşümleri iyi bilmemiz gerekmektedir.
    
       a = "hello"     ==> string bir ifadedir.
-      a1 = "5"       ==> string bir ifadedir.
+      a1 = "5"        ==> string bir ifadedir.
       b = 10          ==> integer bir ifadedir.
       c = 3.4         ==> float bir ifadedir.
       d = True        ==> boolean bir ifadedir.
