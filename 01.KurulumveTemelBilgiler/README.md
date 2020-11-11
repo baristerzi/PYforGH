@@ -119,8 +119,7 @@ Kurulum ve Temel Bilgiler bulunan bu bölümde listelenen bilgilere ulaşabilirs
       Sonuç: 2 ayrı nokta girdi olarak verilen bir python kodu ile bir line oluşturulmuş oldu.
     
     
-   *************************************************************************************** 
-   Teşekkürler, İyi Çalışmalar Arkadaşlar. :)
+
       
       
       
