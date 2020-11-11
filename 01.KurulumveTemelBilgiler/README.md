@@ -98,7 +98,33 @@ Kurulum ve Temel Bilgiler bulunan bu bölümde listelenen bilgilere ulaşabilirs
      
       -İkinci bir egzersiz ile grasshopper'da girilen bir nokta bilgisini kod vasıtası ile çizgiye dönüştürelim dönüştürelim;
       
-      1) Öncelikle; 
+      1) Öncelikle; bir python modülü oluşturuyoruz ve devamında grasshopper içerisinden 2 tane point oluşturuyoruz(construct point). 
+      2) Python modülünün inputlarının "x=>point1" , "y=>point2" isimlerini üzerlerine çift tık yaparak okunaklı olması için değiştirebiliriz. ve "a" outputunu silerek de tek çıktı olarak ayarlamılıyız.
+      3) Değişken isimleri oluşturulduktan sonra "TYPE HINT" kısmında inputlarımızın türlerini "3dpoint" olarak değiştirmemiz gerekmekte ki fonksiyonumuzun girdileri çalışabilsin.
+      4) Değişken isimlerimizi ve türlerini ayarladığımıza göre, iki tane oluşturduğumuz pointleri python modülü girdilerine bağlayabiliriz. Devamında çift tıklayarak girdiğimiz editör sayfamızdan kodlarımızı yazmaya başlayabiliriz;
+     
+      """
+      import ghpythonlib.components as ghcomp
+      
+      output =  ghcomp.line(point1,point2)
+      
+      """
+      ;bu kod zinciri ile bir line oluşturmuş oluyoruz.
+      
+      A1) import ile (ghpythonlib) kütüphanesinden (.components) modülünü çağırarak "as" (ghcomp) olarak kodumuza tanımlatıyoruz. => import ghpython.components as ghcomp
+      
+      A2) (ghcomp) olarak tanımladığımız modüle (.line) modulünü ekleyerek bir line tanımlamak istiyoruz ve .line(STARTPOINT,ENDPOINT) şeklinde başlangıç ve bitiş noktalarını tanımlamamız gerekmektedir ve bunu da bir çıkış verisine dönüştürmemiz gerektiği için "output" a eşlememiz gerekmektedir.
+      => output = ghcomp.line(point1,point2)
+  
+      Sonuç: 2 ayrı nokta girdi olarak verilen bir python kodu ile bir line oluşturulmuş oldu.
+      
+   Teşekkürler, iyi çalışmalar Arkadaşlar. :)
+      
+      
+      
+      
+
+      
     
     
     
