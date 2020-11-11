@@ -38,7 +38,7 @@ Kurulum ve Temel Bilgiler bulunan bu bölümde listelenen bilgilere ulaşabilirs
   Basit Kod Denemeleri;
   
     String(Metinsel) bir ifadeyi yazdırmak=>
-    - Print("Hello World!") => Hello World!
+    Print("Hello World!") => Hello World!
     
     String(Metinsel) bir ifadeyi basit bir değişkene atayarak yazdırmak=>
     say = "Hello World!"
