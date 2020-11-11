@@ -78,7 +78,7 @@ Kurulum ve Temel Bilgiler bulunan bu bölümde listelenen bilgilere ulaşabilirs
    
    ### Grasshopper'da Python node input ve outputlarını tanımlamak;
    
-    -Basit bir egzersiz ile bir girdiyi kod vasıtası ile dönüştürelim;
+   -Basit bir egzersiz ile bir girdiyi kod vasıtası ile dönüştürelim;
   
     1) Öncelikle; ghpythonscript veya math sekmesi içerisindeki script tag'ı altında bulunan ikona tıklayarak bir python modülü oluşturalım. 
     2) input ve output isimleri değişken isimlerini ifade eder ve bu değişkenler ile basit bir fonksiyon yazalım. 
@@ -96,7 +96,7 @@ Kurulum ve Temel Bilgiler bulunan bu bölümde listelenen bilgilere ulaşabilirs
     
      output = sayhello(Metametrik) ==> (Hello Metametrik) yazdırılır.  
      
-      -İkinci bir egzersiz ile grasshopper'da girilen bir nokta bilgisini kod vasıtası ile çizgiye dönüştürelim dönüştürelim;
+   -İkinci bir egzersiz ile grasshopper'da girilen bir nokta bilgisini kod vasıtası ile çizgiye dönüştürelim dönüştürelim;
       
       1) Öncelikle; bir python modülü oluşturuyoruz ve devamında grasshopper içerisinden 2 tane point oluşturuyoruz(construct point). 
       2) Python modülünün inputlarının "x=>point1" , "y=>point2" isimlerini üzerlerine çift tık yaparak okunaklı olması için değiştirebiliriz. ve "a" outputunu silerek de tek çıktı olarak ayarlamılıyız.
