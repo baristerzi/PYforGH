@@ -12,8 +12,8 @@ Kurulum ve Temel Bilgiler bulunan bu bölümde listelenen bilgilere ulaşabilirs
   
   ### Komut İstemini Açmak ve Temel Kullanımı;
   
-  +Başlat + "cmd"/"Komut istemi"
-  +Windows simgesi+R) tuşlarına basılıp "cmd"/"Komut istemi" yazılarak açılır.
+  -Başlat + "cmd"/"Komut istemi" 
+  -(Windows simgesi+R) tuşlarına basılıp "cmd"/"Komut istemi" yazılarak açılır.
  
  Temel Komutlar;
  - "cd" => Dosyalar arası geçişlerde kullanılan komuttur. (cd desktop => masaüstünüze ulaşırsınız.)
@@ -57,7 +57,7 @@ Kurulum ve Temel Bilgiler bulunan bu bölümde listelenen bilgilere ulaşabilirs
       print("Hello"+name)
      sayHello(name)
      
-       sayHello(Baha) yazılırsa => Hello Baha 
+     sayHello(Baha) yazılırsa => Hello Baha 
       
      
     
