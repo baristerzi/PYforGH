@@ -70,10 +70,10 @@ Kurulum ve Temel Bilgiler bulunan bu bölümde listelenen bilgilere ulaşabilirs
    
    -Grasshopper ekranında çift tık yapılarak "ghpythonscript" veya sadece "python" yazarak modülü oluşturabilirsiniz.
    
-   Temel node kullanımları;
-   -Python nodunu oluşturduğunuzda x ve y olarak input, out ve a olarak da output oluşturulur.
-   -Dikkat etmeniz gereken nokta herhangi bir input'a veya output'a sağ tıklayarak unitinizin türünü tariflemeniz gerekir."TYPE HINT" e tıklayarak açılan formdan unitinizi belirleyebilirsiniz.(int,float, point3d vb.)
-   -Python modulü üzerine çift sol tık yaptığınızda ise kod editör ekranı açılacaktır ve kod yazmaya başlayabilirsiniz.
+   -Temel node kullanımları;
+   Python nodunu oluşturduğunuzda x ve y olarak input, out ve a olarak da output oluşturulur.
+   Dikkat etmeniz gereken nokta herhangi bir input'a veya output'a sağ tıklayarak unitinizin türünü tariflemeniz gerekir."TYPE HINT" e tıklayarak açılan formdan unitinizi belirleyebilirsiniz.(int,float, point3d vb.)
+   Python modulü üzerine çift sol tık yaptığınızda ise kod editör ekranı açılacaktır ve kod yazmaya başlayabilirsiniz.
    
    
    ### Grasshopper'da Python node input ve outputlarını tanımlamak;
