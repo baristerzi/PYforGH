@@ -1,5 +1,5 @@
 # Grasshopper'da Python Kullanımı - Metametrik
-## 01. Veri Tipleri ve Matematiksel İşlemler
+## 02. Veri Tipleri ve Matematiksel İşlemler
 
 https://www.youtube.com/watch?v=Fh9616vr5oU&list=PLuRrB0FqYDhCJrFeZKBtNKs3X2D51bTwB&ab_channel=Metametrik
 
