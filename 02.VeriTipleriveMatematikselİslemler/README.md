@@ -125,3 +125,105 @@ Kurulum ve Temel Bilgiler bulunan bu bölümde listelenen bilgilere ulaşabilirs
       tersine dönüşümünde de durumuna karşılık gelmektedir.  
                 
    ### Basit Matematiksel İşlemler;
+   
+   Temel Matematiksel İşlemler(+,-,*,/) olarak tanımlanabilir. "int" veya "float" olarak tanımlanan veri tipleriyle çalıştırılabilirler;
+   
+    a=5
+    b=2.5
+    c=False   #True:1, False:0
+    d=0.5
+    
+    #gibi değişkenler tanımlayalım;
+    
+    result = a + b
+    print(result)  ==>   7.5
+    result1 = a * c
+    print(result1) ==>   0
+    result2 = b + d
+    print(result2) ==>   3.0
+    result3 = a / d
+    print(result3) ==>   10.0
+    
+   Birden fazla işlemi tek satırda yapmak istersek eğer, işlem önceliğine göre parantez() yerleştirmemiz gerekmektedir;
+    
+    result5 = (a*b) + result3 
+    print(result5) ==> 22.5 
+    result6 = (result+result3)*result1
+    print(result6) ==> 0.0
+    
+   ### Metod nedir?,String metodları nasıl çalışır?;
+   Metodlar, kod programcılarının kod parçalarını düzenlerken işimizi kolaylaştıracak bazı durumları formülize etmeleridir. 
+   Bu bölümde bazı string metodlarını kullanıp, çalışma prensiplerini öğreneceğiz. Basit bir string ifade oluşturarak çalışmamıza başlayabiliriz;
+   
+    #Metodlar; değişkenden sonra ".replace" şeklinde çalışır ve ".replace()" parantez açarak içerisine metodun çalışma şeklini ifade etmeliyiz.
+    #(değişken ismi)=(değişken ismi).metod(fonksiyon)
+    
+   Split Metodu;
+    
+    message = 'Hello, There.'
+    message = message.split(',')
+    
+    #split ile ',' elemanından sonra string ifadeyi parçala diyoruz.
+    
+    print(message) ==>  ['Hello',' There']
+       
+  Replace Metodu;
+  
+    message = 'python for grasshopper'
+    message = message.replace("grasshopper","metametrik")
+    
+    #replace ile 'grasshopper' elemanının yerine "metametrik" elamanını yazdırıyoruz.
+    
+    print(message) ==>  python for metametrik 
+    
+   Yardımcı Diğer String Metodlar; 
+    
+    #Harf kullanımını etkileyen;
+    
+    message = 'Hello, There.'
+    message = message.upper() 
+    print(message) ==> HELLO, THERE.
+		
+    message = message.lower()  
+    print(message) ==> hello, there.
+		
+    message = message.capitalize()   
+    print(message) ==> Hello, there.
+    
+    message = message.Title()  
+    print(message) ==> Hello There.
+	
+  *********************************
+    
+    message = 'python for grasshopper'
+    
+    message = message.append(' in metametrik.')
+    print(message) ==> python for grasshopper in metametrik.
+    
+    message = message.find('grasshopper')
+    print(message) ==> 2  #cevabını alırız bu bir index bilgisidir. "python" 0'ıncı, "for" 1'inci, "grasshopper" 2'inci index değerine karşılık gelir.
+    
+    message = message.index('for')
+    print(message) ==> 1    
+    
+    message = message.count('p')
+    print(message) ==> 3  # String ifademizdeki "p" harflerini saydırdığımız zaman 3 değerini elde ederiz.
+    
+   Bu noktada bir kolaylıktan bahsetmek istiyorum. ".metod()" kısmında eğer parantez içinde shift+tab tuşlarına basarsanız, metodun kullanım bilgilerine erişirsiniz. 
+   
+   ### Metod nedir?,String metodları nasıl çalışır?;
+    
+    
+    
+    
+    
+    
+   
+		
+
+    
+    
+   
+   
+   
+   
