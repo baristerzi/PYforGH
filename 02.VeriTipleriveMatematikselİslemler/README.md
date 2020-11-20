@@ -1,9 +1,9 @@
 # Grasshopper'da Python Kullanımı - Metametrik
 ## 02. Veri Tipleri ve Matematiksel İşlemler
 
-https://www.youtube.com/watch?v=Fh9616vr5oU&list=PLuRrB0FqYDhCJrFeZKBtNKs3X2D51bTwB&ab_channel=Metametrik
+https://www.youtube.com/watch?v=3z6AMYgKbvE&ab_channel=Metametrik
 
-Kurulum ve Temel Bilgiler bulunan bu bölümde listelenen bilgilere ulaşabilirsiniz.
+Veri Tipleri ve Matematiksel İşlemler bulunan bu bölümde, aşağıda listelenen bilgilere ulaşabilirsiniz.
 
   - Veri Tipleri(Str,int,float,boolean)
   - Değişken Tanımlamak ve Tür Dönüşümleri(int => float, int => str)
