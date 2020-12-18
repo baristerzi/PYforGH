@@ -211,8 +211,7 @@ Veri Tipleri ve Matematiksel İşlemler bulunan bu bölümde, aşağıda listele
     
    Bu noktada bir kolaylıktan bahsetmek istiyorum. ".metod()" kısmında eğer parantez içinde shift+tab tuşlarına basarsanız, metodun kullanım bilgilerine erişirsiniz. 
    
-   ### Metod nedir?,String metodları nasıl çalışır?;
-    
+
     
     
     
